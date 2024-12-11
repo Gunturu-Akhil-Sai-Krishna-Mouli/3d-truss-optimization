@@ -17,7 +17,8 @@ This repository contains the MATLAB implementation of a project titled *"Truss O
 ---
 
 ## Overview
-Truss structures are widely used in engineering for their efficiency and strength-to-weight ratio. This project develops a numerical optimization algorithm to design a truss structure by iteratively redistributing material to maximize stiffness while maintaining a given volume of material.
+This repository contains materials related to the "Truss Optimization in 3D" project, presented as part of the ME 260 course on Structural Optimization: Size, Shape, and Topology. The project focuses on optimizing 3D truss structures to maximize stiffness (minimize mean compliance) while ensuring efficient material usage within a fixed material volume constraint.
+
 
 Key features include:
 - Generation of a ground structure.
@@ -29,9 +30,9 @@ Key features include:
 ---
 
 ## Features
-- *3D Ground Structure Generation*: Create an initial truss layout with all possible connections between nodes.
+- *3D Ground Structure Generation*: Create an initial truss layout with all possible connections between nodes and removing the overlapping elements.
 - *Finite Element Analysis*: Compute displacement and strain energy to evaluate stiffness.
-- *Material Redistribution Algorithm*: Iteratively optimize member cross-sectional areas based on internal stresses.
+- *Material Redistribution Algorithm*: Iteratively optimize member cross-sectional areas based on internal stresses using optimality Criteria Method.
 - *Member Removal and Reinforcement*: Eliminate members with areas below a specified threshold and reinforce critical members.
 - *User-defined Constraints*: Apply constraints such as total volume and boundary conditions.
 
@@ -39,8 +40,9 @@ Key features include:
 
 ## Methodology
 1. *Ground Structure Creation*:
-   - Generate nodes and connect them to form an initial truss structure.
+   - Generate nodes and connect them to form an initial truss structure (remove the overlapping elements).
    - Define the total material volume and initial member areas.
+   
 
 2. *Finite Element Analysis (FEM)*:
    - Compute the displacement and strain energy for the truss under applied loads.
@@ -99,7 +101,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Author
 - Gunturu Akhil Sai Krishna Mouli
-- Jayhind chouhan
+- Jayhind chauhan
 
 ## Acknowledgments
 This project was developed as part of a course project. Special thanks to the course instructors and peers for their guidance and feedback.
