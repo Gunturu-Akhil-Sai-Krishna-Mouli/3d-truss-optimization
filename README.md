@@ -2,7 +2,7 @@
 Truss Optimization in 3D for Maximum Stiffness
 # Truss Optimization in 3D for Maximum Stiffness
 
-This repository contains the MATLAB implementation of a project titled *"Truss Optimization in 3D for Maximum Stiffness"*. The project focuses on optimizing a 3D truss structure to achieve maximum stiffness for a given volume of material and applied load.
+This repository contains the MATLAB implementation of a project titled *"3d-truss-optimization"*. The project focuses on optimizing a 3D truss structure to achieve maximum stiffness for a given volume of material and applied load.
 
 ## Table of Contents
 - [Overview](#overview)
