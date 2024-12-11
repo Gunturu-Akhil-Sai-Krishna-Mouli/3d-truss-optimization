@@ -31,7 +31,7 @@ Key features include:
 
 ## Features
 - *3D Ground Structure Generation*: Create an initial truss layout with all possible connections between nodes and removing the overlapping elements.
-- *Finite Element Analysis*: Compute displacement and strain energy to evaluate stiffness.
+- *Finite Element Analysis*: Compute displacement to evaluate Strain Energy(Stiffness).
 - *Material Redistribution Algorithm*: Iteratively optimize member cross-sectional areas based on internal stresses using optimality Criteria Method.
 - *Member Removal and Reinforcement*: Eliminate members with areas below a specified threshold and reinforce critical members.
 - *User-defined Constraints*: Apply constraints such as total volume and boundary conditions.
@@ -105,4 +105,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 This project was developed as part of a course project. Special thanks to the course instructors and peers for their guidance and feedback.
-G k Ananthasuresh (Course instructor)
+- G k Ananthasuresh (Course instructor)
